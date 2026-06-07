@@ -59,17 +59,26 @@ export default function Preloader() {
 
                 font-black
 
-                text-[7vw]
+                text-[12vw]
                 sm:text-5xl
                 md:text-7xl
                 lg:text-8xl
 
                 tracking-tight
 
-                whitespace-nowrap
+                text-center
               "
             >
-              BARATHI SANKAR
+              {/* Mobile */}
+              <div className="sm:hidden leading-none">
+                <div>BARATHI</div>
+                <div>SANKAR</div>
+              </div>
+
+              {/* Desktop */}
+              <div className="hidden sm:block whitespace-nowrap">
+                BARATHI SANKAR
+              </div>
             </h1>
 
             {/* Cream Fill */}
@@ -91,17 +100,26 @@ export default function Preloader() {
 
                 font-black
 
-                text-[7vw]
+                text-[12vw]
                 sm:text-5xl
                 md:text-7xl
                 lg:text-8xl
 
                 tracking-tight
 
-                whitespace-nowrap
+                text-center
               "
             >
-              BARATHI SANKAR
+              {/* Mobile */}
+              <div className="sm:hidden leading-none">
+                <div>BARATHI</div>
+                <div>SANKAR</div>
+              </div>
+
+              {/* Desktop */}
+              <div className="hidden sm:block whitespace-nowrap">
+                BARATHI SANKAR
+              </div>
             </motion.h1>
           </div>
         </motion.div>
